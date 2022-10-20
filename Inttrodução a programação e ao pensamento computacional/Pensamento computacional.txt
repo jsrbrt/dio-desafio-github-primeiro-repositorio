@@ -1,0 +1,117 @@
+Pensamento computacional - 
+processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+
+Sistemático e eficiente para formulação e resolução de problemas. É uma habilidade generalista. Envolve matemática, leitura e escrita.
+Baseado em 4 pilares:
+
+Decomposição: dividir um problema complexo em subproblemas. Estudar, explorar. Definição de componentes e etapas.
+Quebrar e determinar partes menores e gerenciáveis -> Análise 
+Combinar os elementos recompondo o problema original -> Síntese 
+Ordem de execução de tarefas (sequencial e paralelo)
+Identificar ou coletar dados -> agregar os dados -> funcionalidade (recompor com coerência)
+
+Reconhecimento de padrões: Identificar padrões ou tendências. Similaridades e diferenças entre os problemas. Padrão comportamental. Modelo base, estrutura invariante, repetição. 
+Ex.: fotos em redes sociais, são comprimidas antes de salvar no servidor de dados. Compressão por reconhecimento de padrões (pixels parecidos comprimidos)
+Separar em classes e categorias. Dependem do domínio e tipo de mídia. 
+O ser humano reconhece padrões por grau de similaridade e grupos conhecidos × objeto desconhecido 
+Já o computador apenas por comparação e simulando esse comportamento pela representação de atributos e aprendizado com o conceito associado ao objeto.
+Aplicações - classificação de documentos e dados, reconhecimento de fala e imagem e análise de cenas. Ias, machine learning e redes neurais.
+
+Abstração: Extrapolar o conceito do problema para uma forma generalista. 
+Abstrair - observar um ou mais elementos avaliando características e propriedades.
+Abstração - processo intelectual de isolamento de um objeto da realidade.
+Generalizar - tornar geral, mais amplo.
+Uma forma de resolver não só o seu problema, mas também problemas diferentes, porém similares, como fórmulas.
+Representação de dados, características classificadas em pontos essenciais e detalhes, como por exemplo nome completo e matrícula como essenciais e livro preferido e trabalho como detalhes.
+Conceitos baseados em abstração:
+Python, c++, Java
+Merge sort, clusteting e busca binária 
+
+Design de algoritmos: Automatizar, definir passo a passo a solução do problema.
+Instruções passo a passo
+Precisa ser entendido tanto pelo humano quanto máquina.
+Análise, algoritmo e codificação.
+Como construir um algoritmo?
+Compreensão do problema, definição dados de entrada, definir processamento, definir dados de saída, utilizar um método de construção, teste e diagnóstico.
+Pode ser descrito em: narrativa, fluxograma e pseudocodigo.
+
+Recursos computacionais - análise, execução da solução e avaliação (refinamento).
+Habilidades humanas - abstração, resolução de problemas, automatização, expressão de solução. 
+
+1. CS + Math: desenvolvimento e abstração, reconhecimento de padrões. 
+2. CS + Sci/Eng: análise de dados e design de soluções, definição uso de abstrações, teste e refinamento de algoritmos.
+3.CS + Sci/Eng + Math: modelagem, definição de problemas, definição e uso de abstrações e reconhecimento de padrões.
+4. Sci/Eng + Math: desenvolvimento e abstrações e reconhecimento de padrões.
+
+Raciocínio lógico:
+Indução - Ciências experimentais.
+Fenômeno observado -> Leis e teorias
+
+Dedução - Ciências exatas.
+Leis e teorias -> Previsões e explicações
+
+Abdução - Processo investigativo e diagnósticos.
+Conclusão -> Premissa
+Ex.: A grama está molhada, logo deve ter chovido.
+
+Técnica linear - execução sequenciada
+Técnica estruturada - organização e ordem dos elementos essenciais, modelo de desenvolvimento e resolução, escolhas.
+Técnica modular - partes independentes controladas por um conjunto de regras, simplificação, decompor o problema e verificação do módulo. 
+
+Tipos de dados
+Numéricos: inteiros e reais
+Caracteres: letras, números e sinais
+Lógico: booleano 
+
+Regras para variável 
+Atribuição de um ou mais caracteres
+Primeira letra não número
+Sem espaços em branco
+Vedado (não utilização de palavras reservadas)
+
+Variável para ação(modificação de estado) ou para controle (vigiada)
+
+Constante: pi
+
+Estruturas condicionais simples, composta e encadeada
+Igual =
+Diferente <>
+Maior que >
+Menor que <
+Maior ou igual a >=
+Menor ou igual a <=
+
+Estruturas de repetição 
+Enquanto... faça 
+Enquanto grama alta faça aparar a grama
+Número de repetições indefinidas
+Repita... até 
+Repita procurar artigo analisar conteúdo virar página
+Número de repetições indefinidas
+Para... de... até... faça 
+Para início de 1 até 10 faça somatório 
+
+Vetores e matrizes
+Container
+Vetor é uma matriz unidimensional
+Matriz linhas verticais e horizontais
+Coleção de variáveis, contidas em memória, índices.
+
+Nota1aluno1 = 10
+Nota2aluno1 = 9
+Nota1aluno2 = 7
+Nota2aluno2 = 6
+
+Notas_aluno1 = [10,9]
+Notas_aluno2 = [7,6]
+Ou
+Notas_alunos = [10,9,7,6]
+(A cada duas posições um aluno diferente)
+
+Funções 
+São blocos de instruções, identificados por nomes e parâmetros.
+Modularizar os problemas
+Definição
+Nome
+Invocação 
+Variáveis locais (destruídas ao encerrar ao função)

@@ -1,0 +1,20 @@
+sha1 ferramenta de encriptação usada pelo git
+blobs trees e commits 3 tipos basicos de objetos do git responsáveis pelo versionamento do código 
+
+blob - objeto que contem metadados do arquivo(tipo do objeto, tamanho da string, tamanho do arquivo)
+echo 'conteudo' | git hash-object -stdin (para a função entender que está sendo dado uma string, normalmente é esperado um arquivo)
+>sha1 de 40 caracteres1
+echo -e 'conteudo' | openssl sha1 
+>sha1 de 40 caracteres2
+diferentes poor causa da ausencia de metadados que são armazenados pelo blob no git
+echo -e 'blob 9\0conteudo' | openssl sha1 
+>sha1 de 40 caracteres1
+igual ao primeiro por causa da adição dos metadados manualmente
+
+trees - armazenam blobs, apontam pra um blob, diferente do blob, a tree guarda o nome do arquivo
+responsavel por montar a estrutura dos arquivos, reponsavel por organizar os blobs ou apontar para outras trees
+as trees tem proprios metadados e consequentemente um sha1, se o sha1 de uma blob que essa tree aponta, seu proprio sha1 tambem vai ser mudado
+trees são usadas para armazenar outros diretórios (outras trees) ou blobs que propriamente armazenam arquivos
+
+commit - um commit aponta pra uma tree, aponta para um "parente" (um commit realizado antes dele), o autor, uma mensagem e o timestamp
+o sha1 desse commit é o hash de toda essa informação

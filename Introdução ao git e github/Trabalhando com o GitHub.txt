@@ -1,0 +1,33 @@
+Chave ssh
+Assinatura
+Sem precisar colocar senha
+Markdown escrever HTTP
+
+Git clone link http
+Git commit (-m) "commita e adiciona msg"
+$ Ssh-keygen -t ed25519 -c robmail.fds@gmail.com
+Ls listar os arquivos (-a para ocultos)
+CD mover de lugar
+Git status status do commit e trees
+Mkdir criar pasta
+Echo > cria um arquivo
+Mv s mover arquivo./outro repositório 
+Ctrl + L limpar
+Git push origin master (empurra o repositorio do local pro remote repository)
+Git pull origin master (puxa o repositório remoto pro local repository)
+Git add (com * ele pega tudo e) dá "stage" no arquivo pra fazer parte de um commit
+Git init cria repositório 
+Tracked
+Arquivos rastreaveis pelo git
+Unmodified, modified, staged
+untracked
+Não tem ciência deles
+
+Ambiente de desenvolvimento 
+Tudo que está na máquina 
+Working directory (onde trabalha)
+Staging area (arquivo staged, fica trocando entre ele e o working directory)
+Local repository (memória, onde está armazenado, commitado)
+Servidor
+Remote repository
+Github
