@@ -1,0 +1,37 @@
+Introdução ao Java
+
+Linguagem de programação simples e fácil de entender.
+Orientada a objeto
+Em Java, o código-fonte é passado pra bytecode que não está linkado a nada
+Portátil
+Robusta
+Gerenciamento de memória forte 
+Coleta de lixo automática 
+Tratamento de exceção 
+Interpretada
+Java virtual machine bytecode
+Sun mycrosystem
+Em C
+
+5,8 expressões lambdas 
+Se 11 le
+
+Final variável não muda o valor
+camelCase
+Letra minúscula
+Semespaco
+Nome método infinitivo
+
+Uma variável com o nome claro sem abreviar
+Sempre no singular exceto quando é o nome de um array ou coleção
+String [ ] emails = {"robmail.fds@gmail.com","professor@gmail.com"};
+Sempre na mesma lingua(PT ou ingles)
+
+Normalmente apenas se usa int 
+Long para números muito grandes com um L no final
+Double para números quebrados
+Alguns casos float com um f no final.
+
+Casting mudar o tipo
+
+Constante final caixa alta
